@@ -131,7 +131,7 @@ dcl-proc print;
   end-pi;
 
   dcl-pr printf extproc('printf');
-    template pointer value options(*string);
+    templ pointer value options(*string);
     dummy pointer options(*nopass);
   end-pr;
 
